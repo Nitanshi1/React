@@ -2,6 +2,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ErrorMessage from "./components/ErrorMessage";
 import FoodItems from "./components/FoodItems";
+import Container from "./components/Container";
+import FoodInput from "./components/FoodInput";
+
+
 function App() {
   let foodItems = [
     "Dal",
@@ -15,10 +19,15 @@ function App() {
 
   return (
     <>
-      <h1 className="textheading">Healthy Foods</h1>
-      <ErrorMessage mereItems={foodItems} />
-<FoodItems mereItems={foodItems} />
-
+      <Container asdf="asdfasdf">
+        <h1 className="textheading">Healthy Foods</h1>
+        <ErrorMessage mereItems={foodItems} />
+        <FoodInput></FoodInput>
+        <FoodItems mereItems={foodItems} />
+      </Container>
+      <Container>
+        <p>Healthy Foods list is shown above.</p>
+      </Container>
     </>
   );
 }

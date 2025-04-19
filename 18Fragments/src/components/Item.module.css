@@ -1,4 +1,9 @@
 .items{
     font-weight: 500;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);;
+    margin-bottom: 10px;
+    
+}
+.button{
+    float: right;
 }

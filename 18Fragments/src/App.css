@@ -1,6 +1,6 @@
-.textheading{
-  font-weight: 600;
-  background-color: rgb(120, 120, 121);
-
-  border-radius: 10px;
+.textheading {
+  font-weight: 500;
+  margin: 10px 0px 0px 10px;
+  color: white;
+  padding: 10px;
 }
